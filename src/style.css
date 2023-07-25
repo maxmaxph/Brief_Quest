@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+}
+
+#hero-selection {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#output {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+.hero-images {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.hero-images img {
+  max-width: 200px;
+  height: auto;
+}
